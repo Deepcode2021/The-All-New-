@@ -12,6 +12,16 @@ body{
   overflow:hidden;
   color:;
 }
+.container1{
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+  color:;
+}
+.hd1{
+color: black;
+font-size:240%;
+}
 .op{
 				font-weight: bold;
 				border-radius: 1px;
@@ -86,7 +96,7 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('showcase1.jpeg') no-repeat;
+  background:url('../img/showcase1.jpeg') no-repeat;
   background-position: center;
   background-size: cover;
   text-align:center;
@@ -192,7 +202,7 @@ footer{
     text-align:center;
     width:100%;
   }
-@media (max-width: 620px) {
+@media only screen and (max-width: 620px) {
   /* For mobile phones: */
   header #branding,
   header nav,
@@ -202,7 +212,6 @@ footer{
   #boxes .box,
   article#main-col,
   aside#sidebar {
-    
     width: 100%;
 }
   header{  
@@ -222,4 +231,18 @@ footer{
     width:100%;
     margin-bottom:5px;
   }
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
