@@ -26,6 +26,11 @@ font-size:240%;
 				font-weight: bold;
 				border-radius: 1px;
 }
+.im1:hover{
+    width:180px ;
+    height:40px;
+
+}
 ul{
   margin:0;
   padding:0;
@@ -245,4 +250,20 @@ footer{
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
+}
+.sc{
+				font-size:20px;
+				animation:animate 2s ease-in-out infinite;
+}
+@keyframes animate {
+				 
+ {
+  0%,100%
+ {
+   transform: translateY(10px);
+ }
+ 50%
+ {
+   transform: translateY(-10px);
+ }
 }
